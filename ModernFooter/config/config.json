@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "modern-footer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/modernFooter/ModernFooterApplicationCustomizer.js",
+          "manifest": "./src/extensions/modernFooter/ModernFooterApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ModernFooterApplicationCustomizerStrings": "lib/extensions/modernFooter/loc/{locale}.js"
+  }
+}

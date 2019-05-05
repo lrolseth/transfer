@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cargillonline.sharepoint.com/sites/InnovatorsStudio/SitePages/TestLaura.aspx",
+      "customActions": {
+        "8d4419b6-6da4-4d51-b83d-1f3b98bf6c9f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "modernFooter": {
+      "pageUrl": "https://cargillonline.sharepoint.com/sites/InnovatorsStudio/SitePages/TestLaura.aspx",
+      "customActions": {
+        "8d4419b6-6da4-4d51-b83d-1f3b98bf6c9f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

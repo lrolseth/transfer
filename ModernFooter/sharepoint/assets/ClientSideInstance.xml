@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance Title="ModernFooter" Location="ClientSideExtension.ApplicationCustomizer" ComponentId="8d4419b6-6da4-4d51-b83d-1f3b98bf6c9f" Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
